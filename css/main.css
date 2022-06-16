@@ -232,10 +232,10 @@ header {
     align-items: center; }
   @media (min-width: 1024px) {
     .row.ltr {
-      grid-template: auto / 40% auto; } }
+      grid-template: auto / 50% auto; } }
   @media (min-width: 1024px) {
     .row.rtl {
-      grid-template: auto / auto 45%; } }
+      grid-template: auto / auto 50%; } }
   .row.rtl .text {
     order: 1; }
     @media (min-width: 1024px) {
@@ -292,10 +292,10 @@ header {
   margin-bottom: 40px; }
   @media (min-width: 1024px) {
     .hero .row {
-      grid-template: auto / auto 64%; } }
+      grid-template: auto / auto 60%; } }
   @media (min-width: 768px) {
     .hero {
-      margin-bottom: 50px; } }
+      margin-bottom: 65px; } }
   .hero h1 {
     margin-bottom: 22px; }
     @media (min-width: 1024px) {
@@ -312,8 +312,6 @@ header {
     text-decoration: underline;
     display: block;
     margin-bottom: 12px; }
-  .hero .image {
-    padding-top: calc(9 / 16 * 100%); }
 
 footer {
   border-radius: 8px 8px 0 0;

@@ -274,12 +274,12 @@ header {
 	}
 	&.ltr {
 		@media (min-width: 1024px) {
-			grid-template: auto / 40% auto;
+			grid-template: auto / 50% auto;
 		}
 	}
 	&.rtl {
 		@media (min-width: 1024px) {
-			grid-template: auto / auto 45%;
+			grid-template: auto / auto 50%;
 		}
 		.text {
 			order: 1;
@@ -352,11 +352,11 @@ header {
 	margin-bottom: 40px;
 	.row {
 		@media (min-width: 1024px) {
-			grid-template: auto / auto 64%;
+			grid-template: auto / auto 60%;
 		}
 	}
 	@media (min-width: 768px) {
-		margin-bottom: 50px;
+		margin-bottom: 65px;
 	}
 	h1 {
 		margin-bottom: 22px;
@@ -376,9 +376,6 @@ header {
 		text-decoration: underline;
 		display: block;
 		margin-bottom: 12px;
-	}
-	.image {
-		padding-top: calc(9 / 16 * 100%);
 	}
 }
 
