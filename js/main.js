@@ -10,3 +10,9 @@ template.querySelectorAll('aside nav .menu a').forEach((item) => {
 		template.querySelector('header nav .menu').classList.remove('show');
 	});
 });
+
+window.addEventListener('scroll', (event) => {
+	if (window.scrollY == 0) {
+		template.querySelector('video').play();
+	}
+});
